@@ -1,0 +1,358 @@
+body {
+    padding: 0;
+    background-color: rgba(244, 244, 244, 1);
+}
+
+.logo {
+    display: block;
+    justify-content: center;
+}
+.glava {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-lonkaro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -120px;
+    max-width: 100%;
+    width: 100%;
+    height: auto;;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.main-lonkaro1 {
+    display: flex;
+    margin-top: -500px;
+}
+.main-lonkaro1 img {
+    margin-left: 200px;
+}
+.lonkaro {
+
+
+    display: block;
+    margin-top: 150px;
+}
+.lonkaro1 {
+    z-index: 10;
+    color: #fff;
+    max-width: 800px;
+    width: 100%;
+    margin-left: 150px;
+}
+.name {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+main {
+    width: 1200px;
+    margin-left: 148px;
+}
+.home-men {
+    display: flex;
+}
+.home-item {
+    display: block;
+    margin-left: 800px;
+}
+.home-item-down {
+    width: 670px;
+}
+
+.home-down {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart {
+    padding-top: 30px;
+
+}
+.cart1 {
+    margin-top: -50px;
+}
+.home-down-item1 {
+    width: 670px;
+    display: block;
+    margin-right: 30px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #fff;
+    height: 606px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 30px;
+}
+.home-down-item12 {
+    margin-left: 450px;
+    width: 670px;
+    background-color: #fff;
+    margin-top: 50px;
+    display: block;
+
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.home-down-item123 {
+    width: 570px;
+    background-color: #fff;
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+.home-down-item1234 {
+    width: 670px;
+    display: block;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #fff;
+    height: 606px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.first {
+    display: flex;
+}
+.home-down-item2 {
+    width: 670px;
+}
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+.three {
+    display: flex;
+    justify-content: space-between;
+}
+.nome-container {
+    width: 670px;
+}
+.home-down-item3 {
+    width: 570px;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+.glava1 {
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    width: 660px;
+    font-size: 18px;
+    margin-left: 408px;
+}
+
+.side-down {
+    display: flex;
+    align-items: start;
+}
+
+.brand {
+    background-color: black;
+    padding-top: 40px;
+    margin-top: 25px;
+    color: #fff;
+    max-width: 100%;
+    width: 100%;
+    height: auto;;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.offer {
+    width: 555px;
+    margin-left: 470px;
+    text-align: center;
+}
+.offer p {
+    font-size: 18px;
+}
+.znaks {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 270px;
+    padding-bottom: 30px;
+}
+.mini {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.sponsors h1 {
+    width: 720px;
+    font-size: 36px;
+    margin-left: 450px;
+}
+
+.spons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 270px;
+    width: 1100px;
+}
+.sik {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.lower {
+    display: block;
+    text-align: center;
+}
+.quatro {
+    width: 16px;
+    height: 10px;
+    background-color: black;
+    margin-left: 100vh;
+}
+.cartina {
+    display: flex;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.socal1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.socal1 h1 {
+    font-size: 28px;
+}
+.calif p {
+    margin-top: -22px;
+}
+
+.contacs {
+    width: 700px;
+    text-align: center;
+    margin-left: 55vh;
+}
+.contacs h1 {
+    font-size: 36px;
+}
+.contacs p {
+    font-size: 20px;
+}
+.btn-contact {
+    height: 46px;
+    width: 130px;
+    background-color: rgba(244, 244, 244, 1);
+    font-weight: bold;
+}
+.sign {
+    margin-top: 30px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.notup {
+    width: 600px;
+    margin-left: 100px;
+}
+.side-hight img {
+    margin-left: 1px;
+    margin-bottom: 8px;
+}
+.side-down img {
+    margin-left: 8px;
+}
+.up {
+    margin-left: 150px;
+}
+.up h1 {
+    font-size: 35px;
+}
+.up p {
+    font-size: 18px;
+}
+.email {
+    background-color: black;
+    color: #fff;
+    width: 490px;
+    height: 50px;
+}
+.sub {
+    background-color: black;
+    overflow: hidden;
+    color: #fff;
+    border-color: #fff;
+    width: 90px;
+    height: 50px;
+}
+
+.foot {
+    display: flex;
+}
+.mate {
+    margin-left: 30vh;
+    margin-top: 50px;
+}
+.hour {
+    margin-left: 30vh;
+}
+.clock {
+    margin-top: 40px;
+    margin-right: 15px;
+}
+.manhten {
+    display: flex;
+    margin-top: 40px;
+}
+.los {
+    display: flex;
+}
+.info {
+    display: block;
+    width: 220px;
+}
+.twiter {
+    margin-left: 10vh;
+}
+.slog {
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+.slog p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media(max-width: 1500px)
+{
+    .galery {
+        display: none;
+    }
+    .brand {
+        width: 100%;
+    }
+}
+@media(min-width: 1300px)
+{
+    .brand {
+        width: 100%;
+    }
+}
