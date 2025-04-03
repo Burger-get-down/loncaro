@@ -328,6 +328,9 @@ main {
     display: block;
     width: 220px;
 }
+.info h3 {
+    opacity: 50%;
+}
 .twiter {
     margin-left: 10vh;
 }
@@ -341,7 +344,7 @@ main {
     padding-bottom: 10px;
 }
 
-@media(max-width: 1500px)
+/* @media(max-width: 1500px)
 {
     .galery {
         display: none;
@@ -354,5 +357,269 @@ main {
 {
     .brand {
         width: 100%;
+    }
+} */
+
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+    .logo img {
+        width: 250px;
+        margin-top: 40px;
+    }
+    .text {
+        width: 350px;
+        text-align: center;
+        margin-left: 30px;
+    }
+    p {
+        font-size: 14px;
+    }
+
+    main {
+        width: 100vw;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .home {
+        width: 100vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        row-gap: 50px;
+    }
+
+    .home-men {
+        display: block;
+        width: 100vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .home-down-item12 {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .home-down-item12 p {
+        font-size: 14px;
+        padding: 6px 6px;
+    }
+
+    .cart12 {
+        width: 300px;
+    }
+
+    .home-down-item1 {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .home-down-item1 p {
+        padding: 6px 6px;
+    }
+
+    .cart1 {
+        width: 300px;
+    }
+
+    .cart {
+        width: 80vw;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+
+    .home-down-item1234 {
+        width: 300px;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .home-down-item1234 p {
+        padding: 6px 6px;
+    }
+
+    .first {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .two {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .three {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .home-down-item123 {
+        width: 100vw;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .home-down-item123 p {
+        padding: 0 6px;
+    }
+
+    .galery {
+        display: none;
+    }
+
+    nav {
+        width: 100vw;
+    }
+
+    .container {
+        margin-top: 30px;
+        width: 100vw;
+    }
+
+    .glava1 {
+        width: 100vw;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .glava1 p {
+        padding: 0 6px;
+    }
+
+    .brand {
+        width: 100vw;
+    }
+
+    .offer {
+        width: 380px;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .znaks {
+        width: 100vw;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .mini {
+        width: 192px;
+    }
+    .main-lonkaro1 {
+        display: block;
+        margin-left: 0;
+        margin-top: -400px;
+    }
+    .lonkaro1 {
+        padding: 0;
+        width: 250px;
+        margin-left: 30px;
+    }
+    .lonkaro1 h1 {
+        margin-top: -5px;
+    }
+    .mini-p {
+        margin-top: -8px;
+    }
+    .main-lonkaro1 img {
+        margin-left: 0;
+        width: 400px;
+        height: auto;
+    }
+    .back-img {
+        height: 400px;
+        width: 100%;
+    }
+    .cartina {
+        display: block;
+        width: 420px;
+        height: auto;
+    }
+    .calif {
+        margin-top: -20px;
+    }
+    .calif h4 {
+        font-size: 15px;
+        width: 120px;
+    }
+    .socal1 h1 {
+        margin-top: -10px;
+        font-size: 20px;
+        width: 200px;
+    }
+    .socal img {
+        width: 420px;
+    }
+    .sign {
+        display: block;
+        width: 420px;
+    }
+    .up {
+        width: 320px;
+        margin-left: 20px;
+    }
+    .notup {
+        display: block;
+        margin-left: 20px;
+        padding-bottom: 15px;
+    }
+    .email {
+        width: 240px;
+    }
+    .sponsors {
+        display: block;
+        width: 380px;
+    }
+    .sponsors h1 {
+        font-size: 26px;
+        width: 360px;
+        margin-left: 0;
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    .spons {
+        display: block;
+        width: 100%;
+        margin-left: 8vw;
+    }
+    .lower {
+        width: 100%;
+        margin-left: 0;
+    }
+    .quatro {
+        margin-left: 45vw;
+    }
+    .contacs {
+        display: block;
+        width: 380px;
+        margin-left: 15px;
+    }
+    .contacs p {
+        font-size: 18px;
+    }
+    .contacs h1 {
+        font-size: 26px;
+    }
+    .foot {
+        display: block;
+    }
+    .mate {
+        margin-left: 90px;
+    }
+    .manhten {
+        width: 400px;
+        display: block;
+    }
+    .los {
+        margin-left: -240px;
+    }
+    .crugi {
+        margin-left: 11vw;
     }
 }
